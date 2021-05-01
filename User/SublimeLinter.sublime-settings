@@ -1,0 +1,28 @@
+// SublimeLinter Settings - User
+{
+	// "debug": true,
+	"linters": {
+		"eslint": {
+			"executable": ["npx", "eslint"]
+		},
+		"php": {
+			"selector": "embedding.php"
+		},
+		"phpcs": {
+			"selector": "embedding.php",
+			"args": ["-s"]
+		},
+		"phpmd": {
+			"styles": [
+				{
+					"scope": "region.purplish"
+				}
+			]
+		}
+	},
+	"styles": [
+		{
+			"mark_style": "squiggly_underline"
+		}
+	]
+}

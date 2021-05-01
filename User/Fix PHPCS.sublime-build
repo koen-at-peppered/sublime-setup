@@ -1,0 +1,5 @@
+{
+    "cmd": ["phpcbf", "$file"],
+    "working_dir": "$folder",
+    "selector": "embedding.php"
+}

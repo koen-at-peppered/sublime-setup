@@ -1,0 +1,16 @@
+backrefs/
+bracex/
+jsonschema/
+lsp_utils/
+markupsafe/
+mdpopups/
+pygments/
+pymdownx/
+python-jinja2/
+python-markdown/
+pyyaml/
+sublime_lib/
+Terminal/
+wcmatch/
+GitSavvy.log_graph_view.hidden-color-scheme
+Package Control.*
