@@ -1,17 +1,25 @@
 .DS_Store
 backrefs/
 bracex/
+ColorHints/
+FileIcons/
+GitSavvy.log_graph_view.hidden-color-scheme
 jsonschema/
+LESS/
 lsp_utils/
 markupsafe/
 mdpopups/
+Package Control.*
 pygments/
 pymdownx/
 python-jinja2/
 python-markdown/
 pyyaml/
+Sass/
+SideBarTools/
+Smarty/
+Solarized Color Scheme/
 sublime_lib/
+SublimeLinter/
 Terminal/
 wcmatch/
-GitSavvy.log_graph_view.hidden-color-scheme
-Package Control.*

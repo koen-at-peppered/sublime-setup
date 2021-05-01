@@ -1,0 +1,10 @@
+{
+	"draw_centered": true,
+	"rulers": [],
+	"spell_check": false,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": true,
+	"wrap_width": 80,
+	"SublimeLinter.linters.shellcheck.args": "--shell=bash",
+	"scroll_past_end": true,
+}

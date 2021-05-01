@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{templatetext label=$1}
+]]></content>
+<tabTrigger>trans</tabTrigger>
+<description>smarty template text</description>
+<scope>text.html.smarty</scope>
+</snippet>

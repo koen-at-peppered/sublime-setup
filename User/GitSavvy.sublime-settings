@@ -1,0 +1,6 @@
+// Settings in here override those in "GitSavvy/GitSavvy.sublime-settings",
+{
+    "global_flags": {
+        // "diff": ["--ignore-all-space"]
+    }
+}

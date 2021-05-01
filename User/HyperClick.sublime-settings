@@ -1,0 +1,8 @@
+// HyperClick Preferences – User
+// ====================================================
+
+{
+    // "annotations_enabled": false,
+    "annotation_found_text": "→",
+    "annotation_not_found_text": "×",
+}
