@@ -5,6 +5,7 @@
 	"rulers": [80, 120],
 	"font_face": "SF Mono",
 	"font_size": 11,
+	"theme": "auto",
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 	"word_wrap": false,
 	"ensure_newline_at_eof_on_save": true,
