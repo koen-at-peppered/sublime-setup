@@ -18,7 +18,6 @@
 	[
 		"vendor",
 		"var",
-		"node_modules",
 		"dist",
 		"*.min.js",
 		"*.min.css"
@@ -29,6 +28,7 @@
 		"cache",
 		".cache",
 		".sass-cache",
+		"node_modules",
 		"templates_c",
 		"wsdl"
 	],
