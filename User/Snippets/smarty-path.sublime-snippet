@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{path route=$1}
+]]></content>
+<tabTrigger>path</tabTrigger>
+<description>Peppered smarty path</description>
+<scope>text.html.smarty</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+v($1, $2)
+]]></content>
+<tabTrigger>v</tabTrigger>
+<description>Peppered SCSS value</description>
+<scope>source.scss meta.property-value.css</scope>
+</snippet>

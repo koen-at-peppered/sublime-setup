@@ -3,6 +3,6 @@
 {{ '$1'|trans }}
 ]]></content>
 <tabTrigger>trans</tabTrigger>
-<description>twig template text</description>
+<description>Peppered twig template text</description>
 <scope>text.html.twig</scope>
 </snippet>

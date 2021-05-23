@@ -3,6 +3,6 @@
 {templatetext label=$1}
 ]]></content>
 <tabTrigger>trans</tabTrigger>
-<description>smarty template text</description>
+<description>Peppered smarty template text</description>
 <scope>text.html.smarty</scope>
 </snippet>
