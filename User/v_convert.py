@@ -1,8 +1,5 @@
-import sublime
 import sublime_plugin
-
 import re
-import sys
 
 
 class VConvertCommand(sublime_plugin.WindowCommand):
@@ -14,11 +11,11 @@ class VConvertCommand(sublime_plugin.WindowCommand):
 
     def run(self):
         view = self.window.active_view()
-        content = [];
-        originals = [];
+        content = []
+        originals = []
 
         # collect original variable declarations
-        with open (view.file_name()) as f:
+        with open(view.file_name()) as f:
             lines = f.readlines()
             for line in lines:
                 match = re.match(r'^(\$[^:]+): (.*);$', line)
@@ -28,7 +25,7 @@ class VConvertCommand(sublime_plugin.WindowCommand):
         f.close()
 
         # collect lines to be written out
-        with open (view.file_name()) as f:
+        with open(view.file_name()) as f:
             lines = f.readlines()
             for line in lines:
                 replaced = line
@@ -38,15 +35,21 @@ class VConvertCommand(sublime_plugin.WindowCommand):
                     find = r'(^\s+([^:]+:\s*|@include fontsize\()){}'.format(escaped)
                     found = re.match(find, line)
                     if found:
-                        replaced = re.sub(find, template, line)
+                        intermediate = re.sub(find, template, line)
+
+                        match = re.match(r'^\s+([^:]+):', intermediate)
+                        if match:
+                            prop = re.sub(r'-', '_', match.group(1))
+                            replaced = re.sub(r'~', '~' + prop, intermediate)
+                        else:
+                            replaced = intermediate
 
                 content.append(replaced)
 
         f.close()
 
-
         # write content back out
-        with open (view.file_name(), 'w') as f:
+        with open(view.file_name(), 'w') as f:
             for line in content:
                 f.write(line)
 
