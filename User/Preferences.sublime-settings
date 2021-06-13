@@ -2,6 +2,7 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"caret_style": "smooth",
+	"indent_guide_options": ["draw_normal", "draw_active_single", "draw_active"],
 	"theme": "auto",
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 	"word_wrap": false,
