@@ -2,7 +2,6 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"caret_style": "smooth",
-	"rulers": [80, 120],
 	"theme": "auto",
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 	"word_wrap": false,
