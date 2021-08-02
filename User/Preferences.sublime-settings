@@ -3,8 +3,8 @@
 {
 	"caret_style": "smooth",
 	"indent_guide_options": ["draw_normal", "draw_active_single", "draw_active"],
-	"theme": "auto",
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "auto",
 	"word_wrap": false,
 	"scroll_past_end": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -40,4 +40,6 @@
 	[
 		"Vintage",
 	],
+	"dark_color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 }
