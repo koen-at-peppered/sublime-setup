@@ -14,6 +14,7 @@
 			"args": ["-s"]
 		},
 		"phpmd": {
+			"lint_mode": "manual",
 			"selector": "embedding.php",
 			"styles": [
 				{
