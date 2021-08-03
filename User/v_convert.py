@@ -8,6 +8,7 @@ class VConvertCommand(sublime_plugin.WindowCommand):
         view = self.window.active_view()
         if view.syntax().scope == 'source.scss':
             return True
+        return False
 
     def run(self):
         view = self.window.active_view()
