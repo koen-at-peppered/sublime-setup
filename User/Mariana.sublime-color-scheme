@@ -25,11 +25,11 @@
     "globals":
     {
         "foreground": "var(white3)",
-        "background": "color(var(blue3) lightness(- 8%))",
+        "background": "color(var(blue3) lightness(- 12%))",
         "caret": "var(orange)",
         "line_highlight": "color(var(blue2) lightness(- 16%))",
         "selection": "color(var(blue2) lightness(- 16%))",
-        "selection_border": "color(var(blue4) lightness(- 11%))",
+        "selection_border": "color(var(blue4) lightness(- 12%))",
         "inactive_selection": "var(blue2)",
         "misspelling": "var(red)",
         "shadow": "color(var(black) alpha(0.25))",
