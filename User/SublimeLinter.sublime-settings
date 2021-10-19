@@ -4,7 +4,14 @@
 	"statusbar.messages_template": "{linter}: {message}",
 	"linters": {
 		"eslint": {
-			"executable": ["npx", "eslint"]
+			"executable": ["npx", "eslint"],
+			"disable_if_not_dependency": true
+		},
+		"yamllint": {
+			"disable_if_not_dependency": true
+		},
+		"stylelint": {
+			"disable_if_not_dependency": true
 		},
 		"php": {
 			"selector": "embedding.php"
@@ -21,7 +28,7 @@
 					"scope": "region.purplish"
 				}
 			]
-		}
+		},
 	},
 	"styles": [
 		{
