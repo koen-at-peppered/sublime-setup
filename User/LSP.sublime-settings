@@ -4,4 +4,11 @@
     "diagnostics_highlight_style": "stippled",
     "diagnostics_gutter_marker": "sign",
     "auto_show_diagnostics_panel": "never",
+    "clients":
+    {
+		"LSP-intelephense":
+		{
+			"enabled": false
+		}
+	}
 }
