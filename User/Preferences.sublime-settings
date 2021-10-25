@@ -37,7 +37,6 @@
 	"show_git_status_in_status_bar": false,
 	"show_definitions": false,
 	"find_selected_text": false,
-	"move_to_limit_on_up_down": true,
 	"ignored_packages":
 	[
 		"Vintage",
