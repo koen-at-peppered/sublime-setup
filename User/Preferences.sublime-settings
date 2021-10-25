@@ -14,11 +14,9 @@
 	"draw_white_space": ["selection", "leading_mixed", "isolated_mixed", "trailing"],
 	"binary_file_patterns":
 	[
-		"vendor",
-		"var",
-		"dist",
 		"*.min.js",
-		"*.min.css"
+		"*.min.css",
+		"*.map"
 	],
 	"folder_exclude_patterns":
 	[
@@ -28,7 +26,11 @@
 		".sass-cache",
 		"node_modules",
 		"templates_c",
-		"wsdl"
+		"wsdl",
+		"vendor",
+		"var",
+		"dist",
+		"config-*"
 	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
