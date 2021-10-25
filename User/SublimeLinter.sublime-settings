@@ -14,9 +14,11 @@
 			"disable_if_not_dependency": true
 		},
 		"php": {
+			"disable": true,
 			"selector": "embedding.php"
 		},
 		"phpcs": {
+			"lint_mode": "load_save",
 			"selector": "embedding.php",
 			"args": ["-s"]
 		},
