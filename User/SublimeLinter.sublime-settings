@@ -8,7 +8,7 @@
 			"disable_if_not_dependency": true
 		},
 		"yamllint": {
-			"disable_if_not_dependency": true
+			"disable": true
 		},
 		"stylelint": {
 			"disable_if_not_dependency": true
