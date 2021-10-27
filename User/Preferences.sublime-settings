@@ -30,7 +30,7 @@
 		"vendor",
 		"var",
 		"dist",
-		"config-*"
+		"config-symfony*"
 	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
