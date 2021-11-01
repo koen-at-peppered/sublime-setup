@@ -17,10 +17,8 @@
 			"disable": true,
 			"selector": "embedding.php"
 		},
-		"phpcs": {
-			"lint_mode": "load_save",
-			"selector": "embedding.php",
-			"args": ["-s"]
+		"php-cs-fixer": {
+			"selector": "embedding.php"
 		},
 		"phpmd": {
 			"lint_mode": "manual",
