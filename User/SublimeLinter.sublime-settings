@@ -17,10 +17,13 @@
 			"disable": true,
 			"selector": "embedding.php"
 		},
-		"php-cs-fixer": {
+		"phpcsfixer": {
+			"disable": true,
+			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},
 		"phpmd": {
+			"disable": true,
 			"lint_mode": "manual",
 			"selector": "embedding.php",
 			"styles": [
