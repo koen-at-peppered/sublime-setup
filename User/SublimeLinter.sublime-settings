@@ -11,6 +11,7 @@
 			"disable": true
 		},
 		"stylelint": {
+			"selector": "source.css - source.css.embedded, source.scss",
 			"disable_if_not_dependency": true
 		},
 		"php": {
