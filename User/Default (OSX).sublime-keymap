@@ -18,5 +18,6 @@
 	// I seem to remember having cmd+shift+m expanding to brackets
 	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
 
-	{ "keys": ["super+ctrl+g"], "command": "gs_show_status" },
+	// { "keys": ["super+ctrl+g"], "command": "gs_show_status" },
+	{ "keys": ["super+ctrl+g"], "command": "gitup_open" },
 ]

@@ -34,7 +34,7 @@
 	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"show_git_status_in_status_bar": false,
+	"show_git_status_in_status_bar": true,
 	"sublime_merge_path": null,
 	"show_definitions": false,
 	"find_selected_text": false,
