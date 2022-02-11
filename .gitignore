@@ -10,6 +10,7 @@ lsp_utils/
 markupsafe/
 mdpopups/
 Package Control.*
+pathlib/
 pygments/
 pymdownx/
 python-jinja2/
