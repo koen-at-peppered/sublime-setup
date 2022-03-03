@@ -1,12 +1,14 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
+	"font_face": "SF Mono",
+	"font_size": 11,
 	"caret_style": "smooth",
 	"indent_guide_options": ["draw_normal", "draw_active_single", "draw_active"],
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+	"color_scheme": "Solarized (light).sublime-color-scheme",
 	"word_wrap": false,
-	"scroll_past_end": false,
+	/*"scroll_past_end": false,*/
 	"ensure_newline_at_eof_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_only_modified_white_space": false,
@@ -16,7 +18,9 @@
 	[
 		"*.min.js",
 		"*.min.css",
-		"*.map"
+		"*.map",
+		"dist/*",
+		"bin/*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -29,7 +33,6 @@
 		"wsdl",
 		"vendor",
 		"var",
-		"dist",
 		"config-symfony*"
 	],
 	"highlight_line": true,
@@ -37,12 +40,11 @@
 	"show_git_status_in_status_bar": true,
 	"sublime_merge_path": null,
 	"show_definitions": false,
-	"find_selected_text": false,
+	/*"find_selected_text": false,*/
 	"ignored_packages":
 	[
 		"Vintage",
 	],
 	"dark_color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
-	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
-	"font_size": 11,
+	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme"
 }
