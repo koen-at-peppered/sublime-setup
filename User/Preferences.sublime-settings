@@ -20,7 +20,8 @@
 		"*.min.css",
 		"*.map",
 		"dist/*",
-		"bin/*"
+		"bin/*",
+		"node_modules",
 	],
 	"folder_exclude_patterns":
 	[
@@ -28,7 +29,6 @@
 		"cache",
 		".cache",
 		".sass-cache",
-		"node_modules",
 		"templates_c",
 		"wsdl",
 		"vendor",
