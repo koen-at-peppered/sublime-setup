@@ -4,6 +4,7 @@
 	"statusbar.messages_template": "{linter}: {message}",
 	"linters": {
 		"eslint": {
+			"selector": "source.js, source.ts",
 			"executable": ["npx", "eslint"],
 			"disable_if_not_dependency": true
 		},
