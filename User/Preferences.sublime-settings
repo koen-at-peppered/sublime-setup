@@ -8,7 +8,7 @@
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Solarized (light).sublime-color-scheme",
 	"word_wrap": false,
-	/*"scroll_past_end": false,*/
+	"rulers": [80, 120],
 	"ensure_newline_at_eof_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_only_modified_white_space": false,
