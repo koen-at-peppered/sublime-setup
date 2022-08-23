@@ -4,7 +4,7 @@
 	"statusbar.messages_template": "{linter}: {message}",
 	"linters": {
 		"eslint": {
-			"selector": "source.js, source.ts",
+			"selector": "source.js - source.js.embedded, source.ts",
 			"executable": ["npx", "eslint"],
 			"disable_if_not_dependency": true
 		},
@@ -16,11 +16,12 @@
 			"disable_if_not_dependency": true
 		},
 		"php": {
-			"disable": true,
+			// "disable": true,
+			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},
 		"phpcsfixer": {
-			"disable": true,
+			// "disable": true,
 			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},

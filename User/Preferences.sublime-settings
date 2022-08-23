@@ -21,30 +21,29 @@
 		"*.map",
 		"dist/*",
 		"bin/*",
-		"node_modules",
+		"node_modules/*",
 	],
 	"folder_exclude_patterns":
 	[
 		".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*",
-		"cache",
+		".vscode",
 		".cache",
 		".sass-cache",
 		"templates_c",
-		"wsdl",
-		"vendor",
-		"var",
-		"config-symfony*"
+		"cache",
+		"//vendor",
+		"//var",
+		"//wsdl",
+		"//xmlrpc",
 	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"show_git_status_in_status_bar": true,
-	"sublime_merge_path": null,
 	"show_definitions": false,
-	/*"find_selected_text": false,*/
 	"ignored_packages":
 	[
+		"GitSavvy",
 		"Vintage",
 	],
 	"dark_color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
-	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme"
+	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 }
