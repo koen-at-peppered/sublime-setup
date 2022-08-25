@@ -36,12 +36,13 @@
 		"//wsdl",
 		"//xmlrpc",
 	],
+	"show_git_status_in_status_bar": false,
+	"sublime_merge_path": null,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"show_definitions": false,
 	"ignored_packages":
 	[
-		"GitSavvy",
 		"Vintage",
 	],
 	"dark_color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
