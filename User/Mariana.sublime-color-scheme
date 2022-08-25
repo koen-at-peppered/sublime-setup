@@ -25,7 +25,7 @@
     "globals":
     {
         "foreground": "var(white3)",
-        "background": "color(var(blue3) lightness(- 9%))",
+        "background": "color(var(blue3) lightness(- 6%))",
         "caret": "var(orange)",
         "line_highlight": "color(var(blue2) lightness(- 16%))",
         "selection": "color(var(blue2) lightness(- 16%))",

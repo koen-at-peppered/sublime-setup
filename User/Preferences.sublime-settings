@@ -6,7 +6,7 @@
 	"caret_style": "smooth",
 	"indent_guide_options": ["draw_normal", "draw_active_single", "draw_active"],
 	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Solarized (light).sublime-color-scheme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 	"word_wrap": false,
 	"rulers": [80, 120],
 	"ensure_newline_at_eof_on_save": true,
