@@ -16,12 +16,12 @@
 			"disable_if_not_dependency": true
 		},
 		"php": {
-			// "disable": true,
+			"disable": true,
 			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},
 		"phpcsfixer": {
-			// "disable": true,
+			"disable": true,
 			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},
