@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{% set ${1:var} = $2 %}
+]]></content>
+<tabTrigger>set</tabTrigger>
+<description>Twig set</description>
+<scope>text.html.twig</scope>
+</snippet>
