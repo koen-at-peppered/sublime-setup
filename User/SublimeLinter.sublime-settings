@@ -9,14 +9,14 @@
 			"disable_if_not_dependency": true
 		},
 		"yamllint": {
-			"disable": true
+			"disable": false
 		},
 		"stylelint": {
 			"selector": "source.css - source.css.embedded, source.scss",
 			"disable_if_not_dependency": true
 		},
 		"php": {
-			"disable": true,
+			"disable": false,
 			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},
@@ -26,7 +26,7 @@
 			"selector": "embedding.php"
 		},
 		"phpmd": {
-			"disable": true,
+			"disable": false,
 			"lint_mode": "manual",
 			"selector": "embedding.php",
 			"styles": [
