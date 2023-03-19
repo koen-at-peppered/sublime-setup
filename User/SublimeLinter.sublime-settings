@@ -1,6 +1,6 @@
 // SublimeLinter Settings - User
 {
-	// "debug": true,
+	"highlights.demote_while_editing": "all",
 	"statusbar.messages_template": "{linter}: {message}",
 	"linters": {
 		"eslint": {
@@ -16,7 +16,7 @@
 			"disable_if_not_dependency": true
 		},
 		"php": {
-			"disable": false,
+			"disable": true,
 			"lint_mode": "load_save",
 			"selector": "embedding.php"
 		},
@@ -27,11 +27,21 @@
 		},
 		"phpmd": {
 			"disable": false,
-			"lint_mode": "manual",
+			"lint_mode": "load_save",
 			"selector": "embedding.php",
 			"styles": [
 				{
 					"scope": "region.purplish"
+				}
+			]
+		},
+		"phpstan": {
+			"lint_mode": "load_save",
+			"selector": "embedding.php",
+			"level": "1",
+			"styles": [
+				{
+					"scope": "region.bluish"
 				}
 			]
 		},

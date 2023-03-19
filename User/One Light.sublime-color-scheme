@@ -1,0 +1,32 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+    "variables":
+    {
+    },
+    "globals":
+    {
+    },
+    "rules":
+    [
+        {
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(grey1)",
+        },
+        {
+            "scope": "variable.namespace, punctuation.accessor, punctuation.accessor.namespace",
+            "foreground": "var(grey2)",
+        },
+        {
+            "scope": "keyword.operator.assignment",
+            "foreground": "var(grey2)",
+        },
+        {
+            "scope": "punctuation.definition.variable, punctuation.section.interpolation, meta.group.interpolation punctuation.definition",
+            "foreground": "var(red1)",
+        },
+        {
+            "scope": "variable.parameter punctuation.definition.variable",
+            "foreground": "var(orange1)",
+        },
+    ]
+}

@@ -1,5 +1,6 @@
 {
-    // Install https://github.com/FriendsOfPHP/PHP-CS-Fixer somewhere that's in your PATH (eg. in ~/  do composer require --dev friendsofphp/php-cs-fixer and put ~/vendor/bin in your PATH).
+    // Install https://github.com/FriendsOfPHP/PHP-CS-Fixer somewhere that's in your PATH
+    // eg. in ~/  do composer require --dev friendsofphp/php-cs-fixer and put ~/vendor/bin in your PATH.
     "cmd": ["php-cs-fixer", "fix", "$file"],
     "working_dir": "$folder",
     "selector": "embedding.php"

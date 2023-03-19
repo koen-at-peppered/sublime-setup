@@ -5,8 +5,6 @@
 	"font_size": 11,
 	"caret_style": "smooth",
 	"indent_guide_options": ["draw_normal", "draw_active_single", "draw_active"],
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Mariana.sublime-color-scheme",
 	"word_wrap": false,
 	"rulers": [80, 120],
 	"ensure_newline_at_eof_on_save": true,
@@ -14,6 +12,7 @@
 	"trim_only_modified_white_space": false,
 	"trim_trailing_white_space_on_save": "all",
 	"draw_white_space": ["selection", "leading_mixed", "isolated_mixed", "trailing"],
+	"auto_match_enabled": true,
 	"binary_file_patterns":
 	[
 		"*.min.js",
@@ -45,6 +44,8 @@
 	[
 		"Vintage",
 	],
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "One Light.sublime-color-scheme",
 	"dark_color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
 	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
 }
