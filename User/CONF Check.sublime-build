@@ -1,6 +1,0 @@
-{
-    "file_patterns": ["*.conf"],
-    "shell_cmd": "$folder/../common_peppered_nl/tools/build/validate_conf.sh --ide",
-    "file_regex": "^(\\S[^:]+):([0-9]+):([0-9]+) error: (.*)$",
-    "working_dir": "$folder"
-}

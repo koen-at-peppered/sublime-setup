@@ -1,6 +1,0 @@
-{
-    "cmd": ["npx", "eslint", "--format", "compact", "--fix", "$file"],
-    "file_regex": "^(\\S[^:]+): line ([0-9]+), col ([0-9]+), (.*)$",
-    "working_dir": "$folder",
-    "selector": "source.js"
-}

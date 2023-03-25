@@ -1,9 +1,0 @@
-{
-	"extensions":
-	[
-		"smarty",
-		"etpl.php",
-		"stpl.php",
-		"tpl.php"
-	]
-}
