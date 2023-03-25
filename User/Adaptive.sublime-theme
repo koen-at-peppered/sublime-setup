@@ -1,0 +1,16 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+        "vcs_modified": "color(color(var(--bluish) alpha(50%)) min-contrast(var(--background) 2.5))",
+        "vcs_missing": "color(color(var(--redish) alpha(50%)) min-contrast(var(--background) 2.5))",
+        "vcs_staged": "color(color(var(--bluish) alpha(50%)) min-contrast(var(--background) 2.5))",
+        "vcs_added": "color(color(var(--greenish) alpha(50%)) min-contrast(var(--background) 2.5))",
+        "vcs_deleted": "color(color(var(--redish) alpha(50%)) min-contrast(var(--background) 2.5))",
+        "vcs_unmerged": "color(color(var(--orangish) alpha(50%)) min-contrast(var(--background) 2.5))",
+    },
+    "rules":
+    [
+
+    ]
+}
