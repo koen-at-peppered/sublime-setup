@@ -3,7 +3,6 @@
 {
 	"font_face": "SF Mono",
 	"font_size": 11,
-	"caret_style": "smooth",
 	"indent_guide_options": ["draw_normal", "draw_active_single", "draw_active"],
 	"word_wrap": false,
 	"rulers": [80, 120],
