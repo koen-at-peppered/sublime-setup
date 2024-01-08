@@ -1,19 +1,20 @@
 // SublimeLinter Settings - User
 {
+	// "debug": true,
 	"highlights.demote_while_editing": "all",
 	"statusbar.messages_template": "{linter}: {message}",
 	"linters": {
 		"eslint": {
+			"disable_if_not_dependency": true,
 			"selector": "source.js - source.js.embedded, source.ts",
-			"executable": ["npx", "eslint"],
-			"disable_if_not_dependency": true
+			"executable": ["npx", "eslint"]
 		},
 		"yamllint": {
 			"disable": false
 		},
 		"stylelint": {
-			"selector": "source.css - source.css.embedded, source.scss",
-			"disable_if_not_dependency": true
+			"disable_if_not_dependency": true,
+			"selector": "source.css - source.css.embedded, source.scss"
 		},
 		"php": {
 			"disable": true,
@@ -26,7 +27,8 @@
 			"selector": "embedding.php"
 		},
 		"phpmd": {
-			"disable": false,
+			"disable": true,
+			"real_file_mode": true,
 			"lint_mode": "load_save",
 			"selector": "embedding.php",
 			"styles": [
@@ -36,6 +38,7 @@
 			]
 		},
 		"phpstan": {
+			"disable": true,
 			"lint_mode": "load_save",
 			"selector": "embedding.php",
 			"level": "1",

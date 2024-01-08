@@ -19,5 +19,16 @@
 	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
 
 	{ "keys": ["super+ctrl+g"], "command": "gs_show_status" },
-	{ "keys": ["super+shift+alt+g"], "command": "gitup_open" },
+	// { "keys": ["super+ctrl+g"], "command": "gitup_open" },
+	{ "keys": ["super+shift+alt+g"], "command": "sublime_merge_open_repo" },
+
+	{ "keys": ["super+shift+alt+t"], "command": "open_terminal" },
+	{ "keys": ["super+ctrl+t"], "command": "open_terminal_project_folder" },
+
+	// peppered companion
+	{ "keys": ["super+shift+alt+p", "b"], "command": "companion_run", "args": { "command": "build" } },
+	{ "keys": ["super+shift+alt+p", "c"], "command": "companion_run", "args": { "command": "cache_clear" } },
+	{ "keys": ["super+shift+alt+p", "l"], "command": "companion_run", "args": { "command": "lint" } },
+	{ "keys": ["super+shift+alt+p", "m"], "command": "companion_run", "args": { "command": "make" } },
+	{ "keys": ["super+shift+alt+p", "o"], "command": "companion_run", "args": { "command": "open" } },
 ]
