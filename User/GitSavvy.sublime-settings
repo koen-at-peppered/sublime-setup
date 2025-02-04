@@ -2,4 +2,6 @@
 
 {
     "git_status_in_status_bar": false,
+    "disable_context_menus": true,
+    "disable_git_init_prompt": false,
 }
