@@ -18,9 +18,10 @@
 	// I seem to remember having cmd+shift+m expanding to brackets
 	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
 
-	{ "keys": ["super+ctrl+g"], "command": "gs_show_status" },
-	// { "keys": ["super+ctrl+g"], "command": "gitup_open" },
-	{ "keys": ["super+shift+alt+g"], "command": "sublime_merge_open_repo" },
+	// { "keys": ["super+ctrl+g"], "command": "gs_show_status" },
+	{ "keys": ["super+ctrl+g"], "command": "gitup_open" },
+	// { "keys": ["super+ctrl+g"], "comman/d": "git_hub_open" },
+	// { "keys": ["super+shift+alt+g"], "command": "sublime_merge_open_repo" },
 
 	{ "keys": ["super+shift+alt+t"], "command": "open_terminal" },
 	{ "keys": ["super+ctrl+t"], "command": "open_terminal_project_folder" },
