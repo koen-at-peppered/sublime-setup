@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-{{ path('$1') }}
-]]></content>
-<tabTrigger>path</tabTrigger>
-<description>Peppered twig path</description>
-<scope>text.html.twig</scope>
-</snippet>
