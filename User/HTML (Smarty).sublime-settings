@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		// stupid legacy peppered extensions
+		"tpl.php",
+		"stpl.php",
+		"etpl.php",
+	],
+}
