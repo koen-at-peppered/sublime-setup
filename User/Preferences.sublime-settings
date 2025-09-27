@@ -42,6 +42,5 @@
 	],
 	"color_scheme": "Solarized (light).sublime-color-scheme",
 	"theme": "Solarized (light).sublime-theme",
-	"index_files": true,
 	"disable_plugin_host_3.3": true,
 }
