@@ -2,6 +2,7 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"font_face": "SF Mono",
+	"default_font_size": 11,
 	"font_size": 11,
 	"line_padding_top": 1,
 	"line_padding_bottom": 1,
@@ -23,34 +24,24 @@
 		"bin/*",
 		"node_modules/*",
 		"//vendor/*",
+		"phpstan-baseline.neon"
 	],
 	"folder_exclude_patterns":
 	[
 		".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*",
 		".vscode",
-		".cache",
-		".sass-cache",
-		"templates_c",
-		"cache",
-		"phpstan-cache",
-		// "//vendor",
-		"//var",
-		"//wsdl",
-		"//xmlrpc",
+		"var/cache"
 	],
-	// "show_git_status_in_status_bar": false,
-	// "sublime_merge_path": null,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"sublime_merge_path": null,
 	"show_definitions": false,
 	"ignored_packages":
 	[
-		"Open in Git Repository",
 		"Vintage",
 	],
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Solarized (dark).sublime-color-scheme",
-	"dark_color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
-	"light_color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
+	"color_scheme": "Solarized (light).sublime-color-scheme",
+	"theme": "Solarized (light).sublime-theme",
 	"index_files": true,
+	"disable_plugin_host_3.3": true,
 }

@@ -20,11 +20,12 @@
 
 	// { "keys": ["super+ctrl+g"], "command": "gs_show_status" },
 	{ "keys": ["super+ctrl+g"], "command": "gitup_open" },
-	// { "keys": ["super+ctrl+g"], "comman/d": "git_hub_open" },
+	// { "keys": ["super+ctrl+g"], "command": "git_hub_open" },
 	// { "keys": ["super+shift+alt+g"], "command": "sublime_merge_open_repo" },
 
-	{ "keys": ["super+shift+alt+t"], "command": "open_terminal" },
+	// { "keys": ["super+ctrl+t"], "command": "switch_to_terminal" },
 	{ "keys": ["super+ctrl+t"], "command": "open_terminal_project_folder" },
+	{ "keys": ["super+shift+alt+t"], "command": "open_terminal" },
 
 	// peppered companion
 	{ "keys": ["super+shift+alt+p", "b"], "command": "companion_run", "args": { "command": "build" } },

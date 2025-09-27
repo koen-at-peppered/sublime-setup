@@ -1,5 +1,6 @@
 // SublimeLinter Settings - User
 {
+	// "debug": true,
 	"highlights.demote_while_editing": "all",
 	"statusbar.messages_template": "{linter}: {message}",
 	"linters": {
@@ -14,12 +15,24 @@
 			"disable_if_not_dependency": true,
 		},
 		"php": {
+			"disable": true,
+			"lint_mode": "load_save",
+		},
+		"phpcs": {
+			"disable_if_not_dependency": true,
 			"lint_mode": "load_save",
 		},
 		"phpcsfixer": {
+			"disable_if_not_dependency": true,
 			"lint_mode": "load_save",
+			"styles": [
+				{
+					"scope": "region.pinkish"
+				}
+			]
 		},
 		"phpmd": {
+			"disable_if_not_dependency": true,
 			"real_file_mode": true,
 			"lint_mode": "load_save",
 			"styles": [
@@ -29,13 +42,8 @@
 			]
 		},
 		"phpstan": {
+			"disable_if_not_dependency": true,
 			"lint_mode": "load_save",
-			"level": "6",
-			"styles": [
-				{
-					"scope": "region.bluish"
-				}
-			]
 		},
 	},
 	"styles": [
