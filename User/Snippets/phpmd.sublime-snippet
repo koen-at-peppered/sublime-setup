@@ -1,0 +1,15 @@
+<snippet>
+<!--
+    Fields: $field_number or ${field_number:default_text}, e.g. $1 or ${1:name}
+    Variables: $variable or ${variable/regex/replace/flags}, e.g. $TM_FILEPATH
+    More: https://www.sublimetext.com/docs/completions.html#snippets
+-->
+<content><![CDATA[
+/**
+ * @SuppressWarnings("PHPMD.${1:StaticAccess}")
+ */
+]]></content>
+<tabTrigger>phpmd</tabTrigger>
+<description>Suppress PHPMD warning</description>
+<scope>embedding.php</scope>
+</snippet>
